@@ -1,0 +1,49 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#header {
+  position: absolute;
+  color: white;
+  top: 30px;
+  text-align: center;
+  z-index: 100;
+  display: block;
+}
+
+#body {
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  width: 100%;
+  text-align: left;
+  z-index: 100;
+  display: block;
+}
+
+#headertext {
+  position: absolute;
+  color: white;
+  width: 100%;
+  font-size: 60px;
+  text-align: left;
+  z-index: 100;
+  display: block;
+}
+
+#bodytext {
+  position: absolute;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  top: 180px;
+  text-align: left;
+  z-index: 100;
+  display: block;
+}
+
+main {
+  position: absolute
+}
