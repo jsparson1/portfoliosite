@@ -20,7 +20,7 @@ renderer.render(scene, camera);
 const geometry = new three.DodecahedronGeometry(5)
 const material = new three.MeshStandardMaterial();
 
-const meTexture = new three.TextureLoader().load('face.jpg');
+const meTexture = new three.TextureLoader().load('https://media.licdn.com/dms/image/C4D03AQFLcmpgPL3_lw/profile-displayphoto-shrink_400_400/0/1650312005800?e=1691020800&v=beta&t=MwmYtvClDCywsuKC2cSGrICpB_5R9lED-qfgaZztv-8');
 
 
 const dodecahedron = new three.Mesh(
