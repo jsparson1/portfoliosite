@@ -33,12 +33,16 @@ canvas {
   display: block;
 }
 
-#bodytext {
+#bodywrapper {
   position: absolute;
+  top: 180px;
+}
+
+#bodytext {
+
   color: white;
   width: 100%;
   font-size: 25px;
-  top: 180px;
   text-align: left;
   z-index: 100;
   display: block;
