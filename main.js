@@ -19,7 +19,7 @@ camera.position.setX(-3);
 const geometry = new three.DodecahedronGeometry(5)
 const material = new three.MeshStandardMaterial();
 
-const meTexture = new three.TextureLoader().load('https://media.licdn.com/dms/image/C4D03AQFLcmpgPL3_lw/profile-displayphoto-shrink_400_400/0/1650312005800?e=1691020800&v=beta&t=MwmYtvClDCywsuKC2cSGrICpB_5R9lED-qfgaZztv-8');
+const meTexture = new three.TextureLoader().load('https://media.licdn.com/dms/image/C4D03AQFLcmpgPL3_lw/profile-displayphoto-shrink_400_400/0/1650312006071?e=1714003200&v=beta&t=IuOc5cpkbrb5ovUUxGL1qUlig4biiV33v2RAvKFo9Q8');
 
 
 const dodecahedron = new three.Mesh(
@@ -69,17 +69,17 @@ window.addEventListener("click", onPointerMove);
 
 function moveShape() {
   const t = document.body.getBoundingClientRect().top;
-  dodecahedron.translateZ(1);
+  dodecahedron.translateZ(0.3);
   camera.position.x = t * -0.0002;
 
 }
 
-document.body.onscroll = moveShape;
-moveShape();
+
+
 
 function animate() {
   requestAnimationFrame(animate);
-
+  moveShape();
   renderer.render(scene, camera);
   dodecahedron.rotation.x += 0.01;
   dodecahedron.rotation.y += 0.04;
