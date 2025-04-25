@@ -1,5 +1,7 @@
 import './style.css'
-import * as three from 'three';
+//import * as three from 'three';
+import * as three from 'https://unpkg.com/three@0.160.1/build/three.module.js';
+
 
 const scene = new three.Scene();
 
