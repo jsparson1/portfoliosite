@@ -21,7 +21,7 @@ camera.position.setX(-3);
 const geometry = new three.DodecahedronGeometry(5)
 const material = new three.MeshStandardMaterial();
 
-const meTexture = new three.TextureLoader().load('https://media.licdn.com/dms/image/v2/C4D03AQFLcmpgPL3_lw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650312006071?e=2147483647&v=beta&t=gkz1N-TkP7zZZWqE1_m2-nJUcQw3w-Suwal6fSjSpBs');
+const meTexture = new three.TextureLoader().load('https://media.licdn.com/dms/image/v2/C4D03AQFLcmpgPL3_lw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1650312006071?e=1751500800&v=beta&t=xA9NOiOWV7nkx3rSeHNv-hyYxuShka2e5gbxcfLIciA');
 
 
 const dodecahedron = new three.Mesh(
